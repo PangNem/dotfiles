@@ -1,0 +1,21 @@
+" set
+set nu
+set rnu
+
+set hlsearch
+set smartcase
+set ignorecase
+
+set visualbell
+set noerrorbells
+
+" mapping
+nnoremap <Enter> o<Esc>
+nnoremap <C-s> <C-u>
+
+" plugins
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-commentary'
+
