@@ -1,5 +1,8 @@
 .zsh_env_vars
 .ssh
 .DS_Store
+
+# markdown-tistory config files
 blog.json
+token.json
 
