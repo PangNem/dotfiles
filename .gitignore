@@ -1,4 +1,5 @@
 .zsh_env_vars
+.ssh
 .DS_Store
 blog.json
 
