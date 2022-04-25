@@ -12,7 +12,7 @@ end
 hs.hotkey.bind({'control'}, 33, escape)
 
 --- 현재 사용중인 키보드 이름 표시
-hs.hotkey.bind({'cmd'}, 'i', function()
+hs.hotkey.bind({'cmd', 'control'}, 'i', function()
     local input_source = hs.keycodes.currentSourceID()
     print(input_source)
 end)
