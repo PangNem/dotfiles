@@ -8,13 +8,17 @@ function escape()
 	hs.eventtap.keyStroke({}, 'escape')
 end
 
---- ctrl + [ 키를 esc로 매핑 및 입력소스 변경
-hs.hotkey.bind({'control'}, 33, escape)
-
 --- 현재 사용중인 키보드 이름 표시
 hs.hotkey.bind({'cmd', 'control'}, 'i', function()
     local input_source = hs.keycodes.currentSourceID()
     print(input_source)
+end)
+
+--- ctrl + [ 키를 esc로 매핑 및 입력소스 변경
+hs.hotkey.bind({'control'}, 33, escape)
+hs.hotkey.bind({'cmd', 'control'}, 'delete', function()
+    hs.eventtap.keyStroke({'shift'}, 'end')
+    hs.eventtap.keyStroke({}, 'delete')
 end)
 
 function open_app(name)
@@ -68,4 +72,3 @@ wifiWatcher = hs.wifi.watcher.new(setVolumeZero)
 wifiWatcher:start()
 
 hs.audiodevice.defaultOutputDevice():setVolume(0)
-
