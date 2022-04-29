@@ -1,4 +1,4 @@
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=4'
 
 [[ -s /Users/pangnem/.autojump/etc/profile.d/autojump.sh ]] && source /Users/pangnem/.autojump/etc/profile.d/autojump.sh
 
