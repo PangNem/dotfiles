@@ -13,6 +13,8 @@ set noerrorbells
 nnoremap <Enter> o<Esc>
 nnoremap <C-s> <C-u>
 
+nnoremap <F3> :set nohlsearch <Enter>
+
 " plugins
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
