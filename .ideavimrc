@@ -14,14 +14,17 @@ set noerrorbells
 nnoremap <Enter> o<Esc>
 nnoremap <C-s> <C-u>
 
+<<<<<<< HEAD
 nnoremap <F3> :noh <Enter>
 
 nnoremap <F4> :vs <Enter> <C-]>
 
 " nnoremap <F7> zz 15<C-e>
+nnoremap <F3> :set nohlsearch <Enter>
 
 " plugins
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-commentary'
+

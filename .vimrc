@@ -49,12 +49,17 @@ filetype plugin on
 syntax on
 
 " colorscheme challenger_deep
+call plug#end()
+
+filetype plugin indent on
+
+colorscheme challenger_deep
 if has('nvim') || has('termguicolors')
   set termguicolors
 endif
 
 " --- end vim-plug
-" set nu
+set nu
 set rnu
 
 set ts=4
@@ -70,6 +75,8 @@ set noerrorbells
 
 nnoremap <Enter> o<Esc>
 " nnoremap <C-a> <C-u>
+
+syntax on
 
 set belloff=all
 
@@ -100,7 +107,6 @@ nnoremap <silent> # <ESC>:call N_find_word_asc()<CR>
 nnoremap <silent> # <ESC>*Nzz
 vnoremap <silent> # <ESC>:call V_find_word_asc()<CR>
 nnoremap <silent> * <ESC>:call N_find_word_desc()<CR>
-
 
 " 20230528 - intellij window resize 테스트
 
@@ -226,3 +232,4 @@ let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_frontmatter = 1
 
 autocmd BufRead *.md setlocal syntax=markdown 
+

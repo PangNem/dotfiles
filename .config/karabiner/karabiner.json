@@ -99,7 +99,7 @@
                         ]
                     },
                     {
-                        "description": "Mouse Click - Pangnem",
+                        "description": "Mouse Click - jxmen",
                         "manipulators": [
                             {
                                 "from": {
@@ -144,7 +144,7 @@
                         ]
                     },
                     {
-                        "description": "Move Mouse Slow - Pangnem",
+                        "description": "Move Mouse Slow - jxmen",
                         "manipulators": [
                             {
                                 "from": {
@@ -277,7 +277,7 @@
                         ]
                     },
                     {
-                        "description": "Move Mouse Fast - Pangnem",
+                        "description": "Move Mouse Fast - jxmen",
                         "manipulators": [
                             {
                                 "from": {
@@ -370,7 +370,7 @@
                         ]
                     },
                     {
-                        "description": "Left Ctrl + ;.'/ to home/end/page_up/page_down - Pangnem",
+                        "description": "Left Ctrl + ;.'/ to home/end/page_up/page_down - jxmen",
                         "manipulators": [
                             {
                                 "from": {
@@ -451,7 +451,7 @@
                         ]
                     },
                     {
-                        "description": "Application to mouse right click - Pangnem",
+                        "description": "Application to mouse right click - jxmen",
                         "manipulators": [
                             {
                                 "from": {
@@ -493,7 +493,7 @@
                         ]
                     },
                     {
-                        "description": "Option-LeftControl-Delete to Delete Forward Word - Pangnem",
+                        "description": "Option-LeftControl-Delete to Delete Forward Word - jxmen",
                         "manipulators": [
                             {
                                 "from": {
@@ -585,8 +585,12 @@
                                 }
                             ]
                         }
+<<<<<<< HEAD
                     ],
                     "treat_as_built_in_keyboard": false
+=======
+                    ]
+>>>>>>> origin/main
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,

@@ -35,7 +35,7 @@ hs.alert.show("Config loaded")
 --- quick open applications
 --- https://zhiye.li/hammerspoon-use-the-keyboard-shortcuts-to-launch-apps-a7c59ab3d92
 --- hs.hotkey.bind({"alt", "shift"}, "L", appLaunchOrFocus("RunJS"))
-
+hs.hotkey.bind({"alt", "shift"}, "L", appLaunchOrFocus("RunJS"))
 hs.hotkey.bind({"alt", "shift"}, ";", appLaunchOrFocus("Finder"))
 hs.hotkey.bind({"alt", "shift"}, "space", appLaunchOrFocus("Iterm 2"))
 
@@ -59,7 +59,6 @@ hs.hotkey.bind({"alt", "shift"}, "[", appLaunchOrFocus("Postman"))
 
 hs.hotkey.bind({"alt", "shift"}, "Y", appLaunchOrFocus("Youtube"))
 hs.hotkey.bind({"alt", "shift"}, ".", appLaunchOrFocus("Youtube Music"))
-
 hs.hotkey.bind({"alt", "shift"}, "E", appLaunchOrFocus("Microsoft Excel"))
 hs.hotkey.bind({"alt", "shift"}, "N", appLaunchOrFocus("Notion"))
 --- hs.hotkey.bind({"alt", "shift"}, "H", appLaunchOrFocus("HwpMac2014VIEWER.app"))
