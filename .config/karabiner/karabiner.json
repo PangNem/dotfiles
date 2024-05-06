@@ -585,12 +585,8 @@
                                 }
                             ]
                         }
-<<<<<<< HEAD
                     ],
                     "treat_as_built_in_keyboard": false
-=======
-                    ]
->>>>>>> origin/main
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
