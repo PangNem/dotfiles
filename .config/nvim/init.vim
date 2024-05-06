@@ -5,14 +5,24 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'vimwiki/vimwiki', { 'branch': 'dev' }
 Plug 'mhinz/vim-startify'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'Valloric/YouCompleteMe'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 call plug#end()
-"--- End of Plugin conf
+"--- End of Plugin Config
 
 set nu
 set rnu
 set ts=4
 set sw=2
+
+" --- Start of AutoCmd Config
+
+autocmd BufNewFile,BufRead *.md set filetype=markdown
+
+" --- End of AutoCmd Config
 
 " --- Start of vimwiki Config - https://johngrib.github.io/wiki/vimwiki/
 let maplocalleader = "\\"
