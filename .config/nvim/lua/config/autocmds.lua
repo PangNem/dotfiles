@@ -59,7 +59,7 @@ local function NewTemplate()
     "# ",
   }
 
-  vim.fn.setline(1, template) -- template가 table이므로 unpack으로 감싸준다.
+  vim.fn.setline(1, template)
   vim.cmd("normal! G")
   vim.cmd("normal! $")
   print("new wiki page has created")
