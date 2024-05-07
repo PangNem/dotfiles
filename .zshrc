@@ -130,9 +130,10 @@ getBranch() {
 export PS1="$PS1 \$(getBranch) "
 
 ### --- Start of Aliases
-alias mv='mv -v'
-alias rm='rm -iv'
 alias l1='ls -1'
+alias cp='cp -v'
+alias rm='rm -iv'
+alias mv='mv -iv'
 alias c=clear
 alias cls=clear
 
