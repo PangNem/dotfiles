@@ -153,6 +153,8 @@ alias gswh='git switch hot'
 alias wstorm='webstorm'
 alias wst='webstorm'
 
+alias leet='nvim leetcode.nvim'
+
 alias fode='fzfoutput=$(fzf); [ "$fzfoutput" != "" ] && code $fzfoutput; unset fzfoutput'
 ### --- End of Aliases
 
