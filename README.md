@@ -6,5 +6,5 @@
 - <https://github.com/jcha0713/dotfiles>
 
 ### Note
-- `2024.05.06``: `vim` -> `neovim`, `lazyvim` migrate
+- `2024.05.06`: `vim` -> `neovim`, `lazyvim` migrate
 
