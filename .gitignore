@@ -1,12 +1,14 @@
-.envs.zshrc
-.zsh_env_vars
-.ssh
-.DS_Store
+# ignore all
+*
 
-# markdown-tistory config files
-blog.json
-token.json
+# not ignore directory
+!.config/nvim/
+!.hammerspoon/
 
-.npmrc
-.aws/credentials
+# not ignore files
+!.tmux.config
+!.ideavimrc
+!.vimrc
+!.zshrc
+!README.md
 
