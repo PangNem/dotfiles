@@ -7,3 +7,6 @@
 blog.json
 token.json
 
+.npmrc
+.aws/credentials
+
