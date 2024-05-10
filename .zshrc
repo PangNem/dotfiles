@@ -149,11 +149,13 @@ alias nd='npm run dev'
 alias gloh="git pull origin hot"
 alias gpo="git push origin"
 alias gswh='git switch hot'
+alias git-open='git remote get-url origin | xargs open'
 
 alias wstorm='webstorm'
 alias wst='webstorm'
 
 alias leet='nvim leetcode.nvim'
+
 
 alias fode='fzfoutput=$(fzf); [ "$fzfoutput" != "" ] && code $fzfoutput; unset fzfoutput'
 ### --- End of Aliases
