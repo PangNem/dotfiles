@@ -6,7 +6,7 @@
 !.hammerspoon/
 
 # not ignore files
-!.tmux.config
+!.tmux.conf
 !.ideavimrc
 !.vimrc
 !.zshrc
