@@ -188,10 +188,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-
-# cd /Users/bagjuyeong/Documents/source/wemeet/roouty-backoffice-v2
-
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
@@ -203,4 +199,7 @@ source $HOME/.envs.zshrc
 if [ "$TMUX" = "" ]; then tmux; fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# image.nvim 경로 설정 - https://github.com/3rd/image.nvim?tab=readme-ov-file#installing-imagemagick
+export DYLD_LIBRARY_PATH="$(brew --prefix)/lib/$DYLD_LIBRARY_PATH"
 
