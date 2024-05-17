@@ -15,5 +15,6 @@ return {
     -- configuration goes here
     arg = "leetcode.nvim", -- nvim 뒤에 어떤 명령어를 입력해야 leetcode 창을 띄울지 설정
     lang = "java", -- 문제를 열 시 기본 언어
+    image_support = true,
   },
 }
