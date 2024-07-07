@@ -148,6 +148,7 @@ alias nd='npm run dev'
 
 alias gloh="git pull origin hot"
 alias gpo="git push origin"
+alias gpos='git push origin $(git branch --show-current)'
 alias gswh='git switch hot'
 alias git-open='git remote get-url origin | xargs open'
 
