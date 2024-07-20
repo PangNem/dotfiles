@@ -50,7 +50,7 @@ hs.hotkey.bind({ "alt", "shift" }, "A", appLaunchOrFocus("Structured"))
 hs.hotkey.bind({ "alt", "shift" }, "/", appLaunchOrFocus("Excalidraw"))
 hs.hotkey.bind({ "alt", "shift" }, "U", appLaunchOrFocus("YES24_eBook"))
 
-hs.hotkey.bind({ "alt", "shift" }, "G", appLaunchOrFocus("Google Chrome"))
+hs.hotkey.bind({ "alt", "shift" }, "G", appLaunchOrFocus("Arc"))
 
 --- 크롬이랑 가까운키 남는거로
 hs.hotkey.bind({ "alt", "shift" }, "T", appLaunchOrFocus("Telegram"))
